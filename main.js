@@ -37,7 +37,8 @@ function run() {
 	let rx = x - warp.x;
 	let ry = y - warp.y;
 	let heading = Math.round((Math.atan2(-rx, ry) * 1800 / Math.PI)) / 10;
-	str += "It is " + Math.round(warp.dist(x, y)) + " blocks away, at a heading of " + heading + "°.";
+	str += "It is " + Math.round(warp.dist(x, y)) + " blocks away, at a heading of " + heading + "°.<br>";
+	str += "The nether coordinates are (" + Math.round(x / 8) + ", " + Math.round(y / 8) + ").";
 	out.innerHTML = str;
 }
 
