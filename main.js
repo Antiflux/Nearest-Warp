@@ -33,7 +33,7 @@ function run() {
 	let x = document.getElementById("x").value;
 	let y = document.getElementById("y").value;
 	let warp = findClosest(x, y);
-	let str = "The closest warp to (" + x + ", " + y + ") is " + warp.name + ".<br>";
+	let str = "The closest warp to (" + x + ", " + y + ") is " + warp.name + ": (" + warp.x + ", " + warp.y + ").<br>";
 	let rx = x - warp.x;
 	let ry = y - warp.y;
 	let heading = Math.round((Math.atan2(-rx, ry) * 1800 / Math.PI)) / 10;
