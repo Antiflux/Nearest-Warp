@@ -42,6 +42,7 @@ function run() {
 	out.innerHTML = str;
 }
 
+// Standard warps
 warps.push(new Warp("Mega Taiga", 3843, -6199));
 warps.push(new Warp("Roofed Forest", 1894, 5831));
 warps.push(new Warp("Jungle", 5120, -362));
@@ -60,3 +61,15 @@ warps.push(new Warp("Island", -5039, -7325));
 warps.push(new Warp("Mushroom Island", -5474, 7983));
 warps.push(new Warp("Flower Forest", -2313, -7975));
 warps.push(new Warp("Elytra Boost", 1734, 95));
+
+// Event warps
+warps.push(new Warp("Build Comp Area", 5190, 7841));
+warps.push(new Warp("Connect 4", 4383, -2568));
+warps.push(new Warp("Team Bear", -13820, 3589));
+warps.push(new Warp("Team Raccoon", -7815, 7981));
+warps.push(new Warp("Team Platypus", -7231, -8562));
+warps.push(new Warp("Team Hedgehog", -12111, -4203));
+warps.push(new Warp("Secret Santa 2020", 8371, -10141));
+warps.push(new Warp("Valentine's Day", -4992, 7868));
+warps.push(new Warp("Easter 2020", 4225, -7315));
+warps.push(new Warp("Halloween 2019", 249, 8752));
