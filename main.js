@@ -42,36 +42,18 @@ function run() {
 	out.innerHTML = str;
 }
 
-alert('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
+// alert('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
 
 // Standard warps
-warps.push(new Warp("Mega Taiga", 3843, -6199));
-warps.push(new Warp("Roofed Forest", 1894, 5831));
-warps.push(new Warp("Jungle", 5120, -362));
-warps.push(new Warp("Savannah Village", 9767, 325));
-warps.push(new Warp("Birch Forest", 1947, -4204));
-warps.push(new Warp("Plains", 3849, 6781));
-warps.push(new Warp("Swamp", 5011, -1836));
-warps.push(new Warp("Mountain", -1886, -3682));
-warps.push(new Warp("Desert", 3078, -3616));
-warps.push(new Warp("Mesa", 6901, -4985));
-warps.push(new Warp("Temp Warp", 11199, 10905));
-warps.push(new Warp("Comfy Fishing", 7302, -2420));
-warps.push(new Warp("Ice Spikes", -6381, -838));
-warps.push(new Warp("Frozen Ocean", 3422, 8901));
-warps.push(new Warp("Island", -5039, -7325));
-warps.push(new Warp("Mushroom Island", -5474, 7983));
-warps.push(new Warp("Flower Forest", -2313, -7975));
-warps.push(new Warp("Elytra Boost", 1734, 95));
+warps.push(new Warp("Spawn", 110, -32));
+warps.push(new Warp("Elytra Boost", 153, -105));
+warps.push(new Warp("Roofed Forest", -3677, 4453));
+warps.push(new Warp("Jungle", -5763, 698));
+warps.push(new Warp("Plains", -3846, 7094));
+warps.push(new Warp("Desert", 2546, 1269));
+warps.push(new Warp("Cave", -2080, 3737));
+warps.push(new Warp("Snowy Plains", -5628, 7571));
 
 // Event warps
-warps.push(new Warp("Build Comp Area", 5190, 7841));
-warps.push(new Warp("Connect 4", 4383, -2568));
-warps.push(new Warp("Team Bear", -13820, 3589));
-warps.push(new Warp("Team Raccoon", -7815, 7981));
-warps.push(new Warp("Team Platypus", -7231, -8562));
-warps.push(new Warp("Team Hedgehog", -12111, -4203));
-warps.push(new Warp("Secret Santa 2020", 8371, -10141));
-warps.push(new Warp("Valentine's Day", -4992, 7868));
-warps.push(new Warp("Easter 2020", 4225, -7315));
-warps.push(new Warp("Halloween 2019", 249, 8752));
+// No event warps yet.
+// warps.push(new Warp("Event Center", 0, 0));
