@@ -47,6 +47,8 @@ function run() {
 // System warps
 warps.push(new Warp("Spawn", 110, -32));
 warps.push(new Warp("Elytra Boost", 153, -105));
+warps.push(new Warp("Comfy Fishing", 2622, 110));
+warps.push(new Warp("PVP Mountain", -7618, 7147));
 
 // Biome warps
 warps.push(new Warp("Roofed Forest", -3677, 4453));
