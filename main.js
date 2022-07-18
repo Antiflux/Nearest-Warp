@@ -49,6 +49,7 @@ warps.push(new Warp("Comfy Fishing", 2622, 110));
 warps.push(new Warp("Elytra Boost", 153, -105));
 warps.push(new Warp("PVP Mountain", -7618, 7147));
 warps.push(new Warp("Spawn", 110, -32));
+warps.push(new Warp("Build PVP", 8929, -1129));
 
 // Biome warps
 warps.push(new Warp("Cave", -2080, 3737));
@@ -64,6 +65,7 @@ warps.push(new Warp("Roofed Forest", -3677, 4453));
 warps.push(new Warp("Savannah", 4182, -1776));
 warps.push(new Warp("Snowy Plains", -5628, 7571));
 warps.push(new Warp("\"Temp Warp\"", 3645, -6828));
+warps.push(new Warp("Mushroom Village", 12187, 7231));
 
 // Event warps
 // No event warps yet.
