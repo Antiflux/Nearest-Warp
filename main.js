@@ -108,3 +108,4 @@ warps.push(new Warp("\"Temp Warp\"", 3645, -6828, 70));
 // Event warps
 // No event warps yet.
 warps.push(new Warp("Event Center", -3323, -251, 71));
+warps.push(new Warp("Obstacle Course Spectator (via Event Center, Weekly Events)", 7607, 9446, 110));
