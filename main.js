@@ -109,5 +109,8 @@ warps.push(new Warp("\"Temp Warp\"", 3645, -6828, 70));
 // No event warps yet.
 warps.push(new Warp("Event Center", -3323, -251, 71));
 warps.push(new Warp("Obstacle Course Spectator (via Event Center, Weekly Events)", 7607, 9446, 110));
+warps.push(new Warp("Team Axolotl (via Event Center, Build Competition)", -8447, 8595, 94));
+warps.push(new Warp("Team Shark (via Event Center, Build Competition)", -17003, 1474, 96));
+warps.push(new Warp("Team Snake (via Event Center, Build Competition)", 12176, -3923, 98));
 warps.push(new Warp("Treasure Hunt (via Event Center, Weekly Events)", 11098, -7629, 114));
 warps.push(new Warp("Spleef Spectator (via Event Center, Weekly Events)", -3610, 103, 127));
