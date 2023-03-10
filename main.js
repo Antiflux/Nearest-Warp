@@ -106,8 +106,8 @@ warps.push(new Warp("Swamp", -7342, -14615, 60));
 warps.push(new Warp("\"Temp Warp\"", 3645, -6828, 70));
 
 // Event warps
-// No event warps yet.
 warps.push(new Warp("Event Center", -3323, -251, 71));
+warps.push(new Warp("March 2023 Build Comp (via Event Center, Build Competition)", -7300, 10000, 99));
 warps.push(new Warp("Obstacle Course Spectator (via Event Center, Weekly Events)", 7607, 9446, 110));
 warps.push(new Warp("Team Axolotl (via Event Center, Build Competition)", -8447, 8595, 94));
 warps.push(new Warp("Team Shark (via Event Center, Build Competition)", -17003, 1474, 96));
