@@ -2,6 +2,7 @@
 <HEAD>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <TITLE>Nearest-Warp</TITLE>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.umd.js" integrity="sha512-CMF3tQtjOoOJoOKlsS7/2loJlkyctwzSoDK/S40iAB+MqWSaf50uObGQSk5Ny/gfRhRCjNLvoxuCvdnERU4WGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <style>
 	.title {
 		text-align: center;
@@ -55,6 +56,18 @@
 		 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+	<div style="display: flex; flex-direction: column; margin-top: 1em; text-align: center">
+		<div>N</div>
+		<div style="display: flex; flex-direction: row; align-items: center; gap: 4px; max-width: 100%; width: 100%">
+			<span>W</span>
+			<div style="flex-grow: 1; overflow: hidden; aspect-ratio: 1/1;">
+				<canvas id="plot" style="background-color: white;"></canvas>
+			</div>
+			<span>E</span>
+		</div>
+		<div>S</div>
+	</div>
 </div>
 <div class="title">Originally by <a href="https://github.com/TechEpic/Nearest-Warp/">AeroSoap</a></div>
 
