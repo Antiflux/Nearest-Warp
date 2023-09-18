@@ -90,6 +90,7 @@ warps.push(new Warp("PVP Mountain", -7618, 7147, 78));
 
 // Biome warps
 warps.push(new Warp("Cave", -2080, 3737, 70));
+warps.push(new Warp("Cherry Grove", -22345, -20092, 62));
 warps.push(new Warp("Desert", 2546, 1269, 71));
 warps.push(new Warp("Flower Forest", 2353, 6959, 62));
 warps.push(new Warp("Island", 2324, -931, 66));
@@ -106,7 +107,7 @@ warps.push(new Warp("Swamp", -7342, -14615, 60));
 warps.push(new Warp("\"Temp Warp\"", 3645, -6828, 70));
 
 // Event warps
-warps.push(new Warp("Archaeology (Jeep down the road, near Spawn)", 3164, -20026, 344));
+warps.push(new Warp("Izonti Dig (Jeep down the road, near Spawn)", 3164, -20026, 344));
 warps.push(new Warp("Event Center", -3323, -251, 71));
 warps.push(new Warp("March 2023 Build Comp (via Event Center, Build Competition)", -7300, 10000, 99));
 warps.push(new Warp("Obstacle Course Spectator (via Event Center, Weekly Events)", 7607, 9446, 110));
