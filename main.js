@@ -116,3 +116,6 @@ warps.push(new Warp("Team Shark (via Event Center, Build Competition)", -17003, 
 warps.push(new Warp("Team Snake (via Event Center, Build Competition)", 12176, -3923, 98));
 warps.push(new Warp("Treasure Hunt (via Event Center, Weekly Events)", 11098, -7629, 114));
 warps.push(new Warp("Spleef Spectator (via Event Center, Weekly Events)", -3610, 103, 127));
+warps.push(new Warp("Team 1: Dragon (via Event Center, Build Competition)", 17278, -21124, 100));
+warps.push(new Warp("Team 2: Caladrius (via Event Center, Build Competition)", 9014, 9072, 102));
+warps.push(new Warp("Team 3: Unicorn (via Event Center, Build Competition)", -17348, 564, 104));
