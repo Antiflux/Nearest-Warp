@@ -66,7 +66,7 @@ function run() {
 	let rx = x - warp.x;
 	let ry = y - warp.y;
 	let heading = Math.round((Math.atan2(-rx, ry) * 1800 / Math.PI)) / 10;
-	str += "The location is " + Math.round(warp.dist2(x, y)) + " blocks away from the warp, at a heading of " + heading + "°.<br>\n";
+	str += "The location is " + Math.round(warp.dist2(x, y)) + " blocks away from the warp, at a heading of " + heading + "&deg;.<br>\n";
 	str += "The nether coordinates of (" + x + ", " + y + ") are (" + Math.round(x / 8) + ", " + Math.round(y / 8) + ").\n";
 	if (warp.offset != 0) {
 		str += "<br><br>\n<font size='-1'>";
