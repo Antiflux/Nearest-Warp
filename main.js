@@ -76,6 +76,19 @@ function run() {
 		str += "</font>\n";
 	}
 	out.innerHTML = str;
+
+	out.style.display = 'block';
+	const dataset = chart.data.datasets[1];
+	if (dataset.data.length === 0) {
+		dataset.data.push({
+			label: 'Coordinates',
+			x: x,
+			y: y,
+		})
+	}
+	dataset.data[0].x = x;
+	dataset.data[0].y = y;
+	chart.update();
 }
 
 // alert('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
@@ -119,3 +132,71 @@ warps.push(new Warp("Spleef Spectator (via Event Center, Weekly Events)", -3610,
 warps.push(new Warp("Team 1: Dragon (via Event Center, Build Competition)", 17278, -21124, 100));
 warps.push(new Warp("Team 2: Caladrius (via Event Center, Build Competition)", 9014, 9072, 102));
 warps.push(new Warp("Team 3: Unicorn (via Event Center, Build Competition)", -17348, 564, 104));
+
+const max = Math.max.apply(null, warps.slice(1, warps.length).reduce(function (a, warp) {
+	a.push(Math.abs(warp.x));
+	a.push(Math.abs(warp.y));
+	return a;
+}, [])) + 350;
+
+const canvas = document.getElementById('plot');
+const chart = new Chart(canvas, {
+	type: 'scatter',
+	data: {
+		datasets: [{
+			label: 'Warps',
+			data: warps.slice(1, warps.length).map((warp) => ({
+				label: warp.label,
+				x: warp.x,
+				y: warp.y,
+			})),
+			backgroundColor: 'rgb(99,120,255)',
+			order: 1,
+		}, {
+			label: 'Coordinates',
+			data: [],
+			backgroundColor: 'rgb(255,99,99)',
+			order: 0,
+		}],
+	},
+	options: {
+		response: true,
+		aspectRatio: 1,
+		scales: {
+			x: {
+				type: 'linear',
+				position: 'center',
+				suggestedMin: -max,
+				suggestedMax: max,
+			},
+			y: {
+				type: 'linear',
+				position: 'center',
+				suggestedMin: -max,
+				suggestedMax: max,
+				reverse: true,
+			}
+		},
+		plugins: {
+			tooltip: {
+				callbacks: {
+					label: function (context) {
+						switch (context.datasetIndex) {
+							case 0:
+								const warp = warps[context.dataIndex + 1];
+								return warp.name + " (" + warp.x + ", " + warp.y + ")";
+							case 1:
+								return 'Coordinates'
+						}
+					}
+				}
+			}
+		},
+		elements: {
+			point: {
+				radius: 4,
+				hoverRadius: 4,
+			}
+		}
+	}
+});
