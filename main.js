@@ -86,6 +86,7 @@ warps.push(new Warp("Spawn", 110, -32));
 warps.push(new Warp("Build PVP", 8929, -1129, 76));
 warps.push(new Warp("Comfy Fishing", 2622, 110, 71));
 warps.push(new Warp("Elytra Boost", 153, -105, 71));
+warps.push(new Warp("Mob Farm", -2077, 12495, 72));
 warps.push(new Warp("PVP Mountain", -7618, 7147, 78));
 
 // Biome warps
