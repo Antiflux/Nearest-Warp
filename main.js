@@ -84,6 +84,7 @@ function run() {
 warps.push(new Warp("INVALID", 999999,999999,999999));
 warps.push(new Warp("Spawn", 110, -32));
 warps.push(new Warp("Build PVP", 8929, -1129, 76));
+warps.push(new Warp("Celestial Citadel PVP", 26960, 35720, 75));
 warps.push(new Warp("Comfy Fishing", 2622, 110, 71));
 warps.push(new Warp("Elytra Boost", 153, -105, 71));
 warps.push(new Warp("Mob Farm", -2077, 12495, 72));
