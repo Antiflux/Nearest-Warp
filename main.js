@@ -122,4 +122,5 @@ warps.push(new Warp("Team 2: Caladrius (via Event Center, Build Competition)", 9
 warps.push(new Warp("Team 3: Unicorn (via Event Center, Build Competition)", -17348, 564, 104));
 
 // Monthly Build Highlights (player builds)
-warps.push(new Warp("Safe Survival City (Event Center, Other Events, November Build Highlight", -1264, 3295, 100));
+warps.push(new Warp("Safe Survival City (Event Center, Other Events, November 2023 Build Highlight", -1264, 3295, 100));
+warps.push(new Warp("ItsImmi's Base (Event Center, Other Events, December 2023 Build Highlight", -7939, 15461, 100));
