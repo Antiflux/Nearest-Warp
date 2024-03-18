@@ -125,3 +125,7 @@ warps.push(new Warp("Team 3: Unicorn (via Event Center, Build Competition)", -17
 // Monthly Build Highlights (player builds)
 warps.push(new Warp("Safe Survival City (Event Center, Other Events, November 2023 Build Highlight", -1264, 3295, 100));
 warps.push(new Warp("ItsImmi's Base (Event Center, Other Events, December 2023 Build Highlight", -7939, 15461, 100));
+warps.push(new Warp("oBlazin's Base (Event Center, Other Events, January 2024 Build Highlight", -15634, -3633, 102));
+// warps.push(new Warp("IceHorror's Base (Event Center, Other Events, February 2024 Build Highlight", -7939, 15461, 100));
+
+// End
