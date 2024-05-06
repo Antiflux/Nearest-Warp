@@ -129,7 +129,8 @@ warps.push(new Warp("oBlazin's Base (Event Center, Other Events, January 2024 Bu
 // oBlazin's warp brings you in at the bottom and there are two bubble columns to the surface that are both approximately
 // twenty-five blocks from the arrival point. There's no easy simple way to account for that _properly_, so just add 25.
 warps.push(new Warp("IceHorror's Base (Event Center, Other Events, February 2024 Build Highlight)", -1596, 26952, 103));
-warps.push(new Warp("Hyth4n's Tree (March 2024 Build Highlight)", -16516, 3715, 7));
-// warps.push(new Warp("Hyth4n's Tree (Event Center, Other Events, March 2024 Build Highlight)", -16516, 3715, 105));
+warps.push(new Warp("Hyth4n's Tree (Event Center, Other Events, March 2024 Build Highlight)", -16516, 3715, 105));
+warps.push(new Warp("BassRaven's Keep (April 2024 Build Highlight)", -20680, -30, 7));
+// warps.push(new Warp("BassRaven's Keep (Event Center, Other Events, April 2024 Build Highlight)", -20680, -30, 105));
 
 // End
