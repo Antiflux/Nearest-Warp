@@ -130,7 +130,14 @@ warps.push(new Warp("oBlazin's Base (Event Center, Other Events, January 2024 Bu
 // twenty-five blocks from the arrival point. There's no easy simple way to account for that _properly_, so just add 25.
 warps.push(new Warp("IceHorror's Base (Event Center, Other Events, February 2024 Build Highlight)", -1596, 26952, 103));
 warps.push(new Warp("Hyth4n's Tree (Event Center, Other Events, March 2024 Build Highlight)", -16516, 3715, 105));
-warps.push(new Warp("BassRaven's Keep (April 2024 Build Highlight)", -20680, -30, 7));
-// warps.push(new Warp("BassRaven's Keep (Event Center, Other Events, April 2024 Build Highlight)", -20680, -30, 105));
+warps.push(new Warp("KStru627's Keep (Event Center, Other Events, April 2024 Build Highlight)", -20680, -30, 105));
+// Louguts' Knowledge Center is _directly at_ Mega Taiga Warp
+// warps.push(new Warp("louguts' Knowledge Center (Event Center, Other Events, May 2024 Build Highlight)", -675, 2167, 104));
+// Astley Garden is _directly at_ Roofed Forest Warp
+// warps.push(new Warp("Astley Garden by MusicOwner (Event Center, Other Events, June 2024 Build Highlight)", -3630, 4454, 104));
+warps.push(new Warp("Istrella by benjib0o (Event Center, Other Events, July 2024 Build Highlight)", -507, 536, 101));
+
+// warps.push(new Warp("1way's Island (Event Center, Other Events, July 2024 Build Highlight)", -16092, 20465, 100));
+warps.push(new Warp("1way's Island (August 2024 Build Highlight)", -16092, 20465, 6));
 
 // End
