@@ -136,8 +136,8 @@ warps.push(new Warp("KStru627's Keep (Event Center, Other Events, April 2024 Bui
 // Astley Garden is _directly at_ Roofed Forest Warp
 // warps.push(new Warp("Astley Garden by MusicOwner (Event Center, Other Events, June 2024 Build Highlight)", -3630, 4454, 104));
 warps.push(new Warp("Istrella by benjib0o (Event Center, Other Events, July 2024 Build Highlight)", -507, 536, 101));
+warps.push(new Warp("1way's Island (Event Center, Other Events, July 2024 Build Highlight)", -16092, 20465, 100));
 
-// warps.push(new Warp("1way's Island (Event Center, Other Events, July 2024 Build Highlight)", -16092, 20465, 100));
-warps.push(new Warp("1way's Island (August 2024 Build Highlight)", -16092, 20465, 6));
+warps.push(new Warp("berry_boba's Grove (September 2024 Build Highlight)", 17405, 22329, 6));
 
 // End
