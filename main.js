@@ -62,7 +62,7 @@ function run() {
 	let x = document.getElementById("x").value;
 	let y = document.getElementById("y").value;
 	let warp = findClosest(x, y);
-	let str = "The closest warp to (" + x + ", " + y + ") is " + warp.name + ": (" + warp.x + ", " + warp.y + ").<br>\n";
+	let str = "The closest warp to (" + x + ", " + y + ") is " + warp.name + ": (" + warp.x + ", " + warp.y + ") The nether coordinates of " + warp.name + " are (" + Math.round(warp.x / 8) + ", " + Math.round(warp.y / 8) + ").<br><br>\n";
 	let rx = x - warp.x;
 	let ry = y - warp.y;
 	let heading = Math.round((Math.atan2(-rx, ry) * 1800 / Math.PI)) / 10;
