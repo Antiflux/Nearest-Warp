@@ -26,7 +26,7 @@
 		border-radius: 15px;
 		padding: 10px;
 	}
-	#output {
+	.output {
 		max-width: 500px;
 		margin-left: auto;
 		margin-right: auto;
@@ -39,7 +39,7 @@
 </style>
 </HEAD>
 <BODY>
-<H3 class="title">Nearest-Warp finder for Safe Survival, Antiflux Edition</H3>
+<H3 class="title">Nearest-Warp finder for Safe Survival SMP, Antiflux Edition</H3>
 <div id="wrapper">
 	<label for="x">X Coordinate:</label>
 	<input type="number" id="x">
@@ -52,6 +52,10 @@
 	<div id="output">The Nearest-Warp calculator for Safe Survival SMP. Enter the
 		X/Z coordinates of your desired location, and this calculator will tell
 		you which public warp is closest to your destination.</div>
+</div>
+<div id="additional_results" style="display: none;" >
+	<br>
+	<div class="output" id="secondary"></div>
 </div>
 <div class="title">Originally by <a href="https://github.com/TechEpic/Nearest-Warp/">AeroSoap</a></div>
 
