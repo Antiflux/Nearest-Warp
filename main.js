@@ -118,9 +118,19 @@ function run() {
 
 // System warps
 warps.push(new Warp("INVALID", 999999, 999999, 999999, 1));
-// warps.push(new Warp("Spawn", 0, 0));
+warps.push(new Warp("Spawn", -524, 12));
+warps.push(new Warp("Mob Farm", 1237, -1816, 0, 0));
 
 // Biome warps
+
+
+warps.push(new Warp("Plains", -2155, 8920, 0, 0));
+warps.push(new Warp("Flower Forest", 8142, 4813, 0, 0));
+warps.push(new Warp("Cherry Grove", -4496, -1936, 0, 0));
+warps.push(new Warp("Ice Spikes", -465, 4595, 0, 0));
+warps.push(new Warp("Desert", 1009, 8354, 0, 0));
+warps.push(new Warp("Mesa", -8019, -5839, 0, 0));
+
 
 // Event warps
 
