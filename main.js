@@ -116,7 +116,7 @@ function run() {
 	}
 }
 
-let NEEDS_ELYRTA = 1;
+let NEEDS_ELYTRA = 1;
 let NO_ELYTRA = 0;
 
 // System warps
