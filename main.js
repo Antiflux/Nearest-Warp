@@ -77,7 +77,9 @@ function show_results(x, y, warp, outdiv, firstresult = 1) {
 	let rx = x - warp.x;
 	let ry = y - warp.y;
 	let heading = Math.round((Math.atan2(-rx, ry) * 1800 / Math.PI)) / 10;
-	if (warp.needsElytra) {
+	if (warp.needsElytra == ELYTRA_DISABLED) {
+		str += "<b>ELYTRA IS DISABLED AT WARP</b>.<br><br>\n";
+	} else if (warp.needsElytra == NEEDS_ELYTRA) {
 		str += "ELYTRA IS REQUIRED.<br><br>\n";
 	}
 	str += "The location is " + Math.round(warp.dist2(x, y)) + " blocks away from the warp, at a heading of " + heading + "&deg;.<br>\n";
@@ -116,29 +118,44 @@ function run() {
 	}
 }
 
+let ELYTRA_DISABLED = 2;
 let NEEDS_ELYTRA = 1;
 let NO_ELYTRA = 0;
+
+// The distance offsets of various warps are obtained by performing
+// distance calculations and truncating the results to whole numbers.
 
 // System warps
 warps.push(new Warp("INVALID", 999999, 999999, 999999, NEEDS_ELYTRA));
 warps.push(new Warp("Spawn", -524, 12));
-warps.push(new Warp("Mob Farm", 1237, -1816, 0, NO_ELYTRA));
+warps.push(new Warp("Mob Farm/Comfy Fishing", 1237, -1815, 28, NO_ELYTRA));
+warps.push(new Warp("Elytra Boost", -566, -44, 12, NEEDS_ELYTRA));
+warps.push(new Warp("Bouncy Castle", -483, -84, 11, NO_ELYTRA));
+warps.push(new Warp("PVP Lobby", -605, -96, 12, NO_ELYTRA));
+warps.push(new Warp("Build PVP", 677, 710, 17, NEEDS_ELYTRA));
+warps.push(new Warp("Redstone Museum", 5074, -2464, 32, NO_ELYTRA));
 
 // Biome warps
 
+warps.push(new Warp("Plains", -2155, 8920, 20, NO_ELYTRA));
+warps.push(new Warp("Flower Forest", 8142, 4813, 23, NO_ELYTRA));
+warps.push(new Warp("Cherry Grove", -4496, -1936, 30, NO_ELYTRA));
+// warps.push(new Warp("Ice Spikes", -465, 4595, 39, NO_ELYTRA));
+warps.push(new Warp("Desert", 1009, 8354, 39, NO_ELYTRA));
+warps.push(new Warp("Mesa", -8019, -5839, 37, NO_ELYTRA));
 
-warps.push(new Warp("Plains", -2155, 8920, 0, NO_ELYTRA));
-warps.push(new Warp("Flower Forest", 8142, 4813, 0, NO_ELYTRA));
-warps.push(new Warp("Cherry Grove", -4496, -1936, 0, NO_ELYTRA));
-warps.push(new Warp("Ice Spikes", -465, 4595, 0, NO_ELYTRA));
-warps.push(new Warp("Desert", 1009, 8354, 0, NO_ELYTRA));
-warps.push(new Warp("Mesa", -8019, -5839, 0, NO_ELYTRA));
-
-warps.push(new Warp("Roofed Forest", -1371, 1010, 0, NO_ELYTRA));
-warps.push(new Warp("Mushroom", 6263, -1709, 0, NO_ELYTRA));
+warps.push(new Warp("Roofed Forest", -1371, 1010, 37, NO_ELYTRA));
+warps.push(new Warp("Mushroom", 6263, -1709, 39, NO_ELYTRA));
 
 
 // Event warps
+
+warps.push(new Warp("Event Center", -404, 160, 9, NO_ELYTRA));
+warps.push(new Warp("Spleef Spectator", 424, 760, 16, NEEDS_ELYTRA));
+warps.push(new Warp("Obstacle Course Spectator", 1060, 252, 14, NO_ELYTRA));
+warps.push(new Warp("Island Map", -9890, -9744, 19, ELYTRA_DISABLED));
+// Central City cannot be exited without elytra but elytra is disabled there.
+// warps.push(new Warp("Central City", 813, 298, 19, ELYTRA_DISABLED));
 
 // Monthly Build Highlights (player builds)
 
