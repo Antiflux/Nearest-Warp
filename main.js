@@ -143,6 +143,7 @@ warps.push(new Warp("Cherry Grove", -4496, -1936, 30, NO_ELYTRA));
 warps.push(new Warp("Ice Spikes", -465, 4595, 39, NO_ELYTRA));
 warps.push(new Warp("Desert", 1009, 8354, 39, NO_ELYTRA));
 warps.push(new Warp("Mesa", -8019, -5839, 37, NO_ELYTRA));
+warps.push(new Warp("Pale Garden", -7029 13544, 27, NO_ELYTRA));
 
 warps.push(new Warp("Roofed Forest", -1371, 1010, 37, NO_ELYTRA));
 warps.push(new Warp("Mushroom", 6263, -1709, 39, NO_ELYTRA));
