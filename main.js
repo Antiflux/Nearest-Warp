@@ -140,7 +140,7 @@ warps.push(new Warp("Redstone Museum", 5074, -2464, 32, NO_ELYTRA));
 warps.push(new Warp("Plains", -2155, 8920, 20, NO_ELYTRA));
 warps.push(new Warp("Flower Forest", 8142, 4813, 23, NO_ELYTRA));
 warps.push(new Warp("Cherry Grove", -4496, -1936, 30, NO_ELYTRA));
-// warps.push(new Warp("Ice Spikes", -465, 4595, 39, NO_ELYTRA));
+warps.push(new Warp("Ice Spikes", -465, 4595, 39, NO_ELYTRA));
 warps.push(new Warp("Desert", 1009, 8354, 39, NO_ELYTRA));
 warps.push(new Warp("Mesa", -8019, -5839, 37, NO_ELYTRA));
 
