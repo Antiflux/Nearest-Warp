@@ -124,34 +124,37 @@ let NO_ELYTRA = 0;
 
 // The distance offsets of various warps are obtained by performing
 // distance calculations and truncating the results to whole numbers.
+//
+// When a warp has two steps, the distance offsets are expressed
+// as the sum of the distances of the multiple steps.
 
 // System warps
 warps.push(new Warp("INVALID", 999999, 999999, 999999, NEEDS_ELYTRA));
 warps.push(new Warp("Spawn", -524, 12));
-warps.push(new Warp("Mob Farm/Comfy Fishing", 1237, -1815, 28, NO_ELYTRA));
+warps.push(new Warp("Mob Farm/Comfy Fishing", 1237, -1815, 13, NO_ELYTRA));
 warps.push(new Warp("Elytra Boost", -566, -44, 12, NEEDS_ELYTRA));
 warps.push(new Warp("Bouncy Castle", -483, -84, 11, NO_ELYTRA));
 warps.push(new Warp("PVP Lobby", -605, -96, 12, NO_ELYTRA));
-warps.push(new Warp("Build PVP", 677, 710, 17, NEEDS_ELYTRA));
-warps.push(new Warp("Redstone Museum", 5074, -2464, 32, NO_ELYTRA));
+warps.push(new Warp("Build PVP", 677, 710, 12+5, NEEDS_ELYTRA));
+warps.push(new Warp("Mountain PVP", 16156, 9996, 12+3, NO_ELYTRA));
+warps.push(new Warp("Redstone Museum", 5074, -2464, 12+20, NO_ELYTRA));
 
 // Biome warps
 
-warps.push(new Warp("Plains", -2155, 8920, 20, NO_ELYTRA));
-warps.push(new Warp("Flower Forest", 8142, 4813, 23, NO_ELYTRA));
-warps.push(new Warp("Cherry Grove", -4496, -1936, 30, NO_ELYTRA));
-warps.push(new Warp("Ice Spikes", -465, 4595, 39, NO_ELYTRA));
-warps.push(new Warp("Desert", 1009, 8354, 39, NO_ELYTRA));
-warps.push(new Warp("Mesa", -8019, -5839, 37, NO_ELYTRA));
-warps.push(new Warp("Pale Garden", -7029, 13544, 27, NO_ELYTRA));
-
-warps.push(new Warp("Roofed Forest", -1371, 1010, 37, NO_ELYTRA));
-warps.push(new Warp("Mushroom", 6263, -1709, 39, NO_ELYTRA));
-
+warps.push(new Warp("Plains", -2155, 8920, 12+8, NO_ELYTRA));
+warps.push(new Warp("Flower Forest", 8142, 4813, 12+13, NO_ELYTRA));
+warps.push(new Warp("Pale Forest", -7027, 13544, 12+16, NO_ELYTRA));
+warps.push(new Warp("Cherry Grove", -4496, -1936, 12+20, NO_ELYTRA));
+warps.push(new Warp("Roofed Forest", -1371, 1010, 12+25, NO_ELYTRA));
+warps.push(new Warp("Mushroom", 6263, -1709, 12+27, NO_ELYTRA));
+warps.push(new Warp("Ice Spikes", -466, 4595, 12+27, NO_ELYTRA));
+warps.push(new Warp("Desert", 1009, 8354, 12+27, NO_ELYTRA));
+warps.push(new Warp("Mesa", -8019, -5839, 12+25, NO_ELYTRA));
+warps.push(new Warp("Jungle", 8340, -11391, 12+23, NO_ELYTRA));
 
 // Event warps
 
-warps.push(new Warp("Event Center", -404, 160, 9, NO_ELYTRA));
+warps.push(new Warp("Event Center", -404, 160, 12, NO_ELYTRA));
 warps.push(new Warp("Spleef Spectator", 424, 760, 16, NEEDS_ELYTRA));
 warps.push(new Warp("Obstacle Course Spectator", 1060, 252, 14, NO_ELYTRA));
 warps.push(new Warp("Island Map", -9890, -9744, 19, ELYTRA_DISABLED));
